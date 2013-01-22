@@ -7,7 +7,7 @@ class Directory
 
   def create_directory
     if File.directory?(@name)
-      abort "#{@name} directory already exists"
+      puts "#{@name} directory already exists"
     else
       FileUtils.mkdir(@name)
       puts "#{@name} directory created"
