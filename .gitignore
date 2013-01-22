@@ -16,3 +16,9 @@ tmp
 .yardoc
 _yardoc
 doc/
+
+# created directories
+railscasts/
+railscasts_pro/
+peepcode/
+destroyallsoftware/
