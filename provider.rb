@@ -20,6 +20,6 @@ class Provider
   end
 
   def error_message
-    puts "Please enter one of the following providers => #{RAILSCASTS}, #{RAILSCASTS_PRO}, #{PEEPCODE} or #{DESTROYALLSOFTWARE}"
+    abort "Please enter one of the following providers => #{RAILSCASTS}, #{RAILSCASTS_PRO}, #{PEEPCODE} or #{DESTROYALLSOFTWARE}"
   end
 end
