@@ -10,9 +10,6 @@ class Provider
 
   def initialize(name)
     @name = name
-  end
-
-  def check
     valid_provider?
   end
 
